@@ -1,749 +1,753 @@
 {
     "01: Startup": {
-        "0000: Boot Counter": 3, 
+        "0000: Boot Counter": 3,
         "0032: Boot Index": {
-            "converted": 7, 
-            "raw": 7, 
+            "converted": 7,
+            "raw": 7,
             "unit": null
-        }, 
-        "0040: Boot Reason": 102
-    }, 
+        },
+        "0040: Boot Reason": {
+            "converted": 102,
+            "raw": 102,
+            "unit": null
+        }
+    },
     "02: Program State": {
         "0056: Program CRC": {
-            "converted": 14274, 
-            "raw": 14274, 
+            "converted": 14274,
+            "raw": 14274,
             "unit": null
         }
-    }, 
+    },
     "03: Time Telemetry": {
         "0072: Mission time": {
-            "converted": 218761.5, 
-            "raw": 218761500, 
+            "converted": 218730.2,
+            "raw": 218730200,
             "unit": null
-        }, 
+        },
         "0136: External time": {
-            "converted": 946916129.0, 
-            "raw": 946916129, 
+            "converted": 946916097.0,
+            "raw": 946916097,
             "unit": null
         }
-    }, 
+    },
     "04: Error Counters": {
-        "0168: Comm": 0, 
-        "0176: EPS": 0, 
-        "0184: RTC": 0, 
-        "0192: IMTQ": 0, 
-        "0200: N25Q1": 0, 
-        "0208: N25Q2": 0, 
-        "0216: N25Q3": 0, 
-        "0224: N25q TMR": 0, 
-        "0232: FRAM TMR": 0, 
-        "0240: Payload": 0, 
-        "0248: Camera": 19, 
-        "0256: ExpSuns": 0, 
-        "0264: ANT Primary": 0, 
+        "0168: Comm": 0,
+        "0176: EPS": 0,
+        "0184: RTC": 0,
+        "0192: IMTQ": 0,
+        "0200: N25Q1": 0,
+        "0208: N25Q2": 0,
+        "0216: N25Q3": 0,
+        "0224: N25q TMR": 0,
+        "0232: FRAM TMR": 0,
+        "0240: Payload": 0,
+        "0248: Camera": 19,
+        "0256: ExpSuns": 0,
+        "0264: ANT Primary": 0,
         "0272: ANT Backup": 0
-    }, 
+    },
     "05: Scrubbing State": {
-        "0280: Primary Flash Scrubbing pointer": 3, 
-        "0283: Secondary Flash Scrubbing pointer": 2, 
-        "0286: RAM Scrubbing pointer": 367768
-    }, 
+        "0280: Primary Flash Scrubbing pointer": 2,
+        "0283: Secondary Flash Scrubbing pointer": 2,
+        "0286: RAM Scrubbing pointer": 341968
+    },
     "06: System": {
         "0318: Uptime": {
-            "converted": 51605.0, 
-            "raw": 51605, 
+            "converted": 51573.0,
+            "raw": 51573,
             "unit": null
         }
-    }, 
+    },
     "07: File System": {
         "0340: Free Space": 14683232
-    }, 
+    },
     "08: Antenna": {
         "0372: Antenna 1 Deployment Switch Ch A": {
-            "converted": false, 
-            "raw": 0, 
+            "converted": false,
+            "raw": 0,
             "unit": null
-        }, 
+        },
         "0373: Antenna 2 Deployment Switch Ch A": {
-            "converted": false, 
-            "raw": 0, 
+            "converted": false,
+            "raw": 0,
             "unit": null
-        }, 
+        },
         "0374: Antenna 3 Deployment Switch Ch A": {
-            "converted": false, 
-            "raw": 0, 
+            "converted": false,
+            "raw": 0,
             "unit": null
-        }, 
+        },
         "0375: Antenna 4 Deployment Switch Ch A": {
-            "converted": false, 
-            "raw": 0, 
+            "converted": false,
+            "raw": 0,
             "unit": null
-        }, 
+        },
         "0376: Antenna 1 Deployment Switch Ch B": {
-            "converted": false, 
-            "raw": 0, 
+            "converted": false,
+            "raw": 0,
             "unit": null
-        }, 
+        },
         "0377: Antenna 2 Deployment Switch Ch B": {
-            "converted": false, 
-            "raw": 0, 
+            "converted": false,
+            "raw": 0,
             "unit": null
-        }, 
+        },
         "0378: Antenna 3 Deployment Switch Ch B": {
-            "converted": false, 
-            "raw": 0, 
+            "converted": false,
+            "raw": 0,
             "unit": null
-        }, 
+        },
         "0379: Antenna 4 Deployment Switch Ch B": {
-            "converted": false, 
-            "raw": 0, 
+            "converted": false,
+            "raw": 0,
             "unit": null
-        }, 
+        },
         "0380: Antenna 1 Time Limit Reached Ch A": {
-            "converted": false, 
-            "raw": 0, 
+            "converted": false,
+            "raw": 0,
             "unit": null
-        }, 
+        },
         "0381: Antenna 2 Time Limit Reached Ch A": {
-            "converted": false, 
-            "raw": 0, 
+            "converted": false,
+            "raw": 0,
             "unit": null
-        }, 
+        },
         "0382: Antenna 3 Time Limit Reached Ch A": {
-            "converted": false, 
-            "raw": 0, 
+            "converted": false,
+            "raw": 0,
             "unit": null
-        }, 
+        },
         "0383: Antenna 4 Time Limit Reached Ch A": {
-            "converted": false, 
-            "raw": 0, 
+            "converted": false,
+            "raw": 0,
             "unit": null
-        }, 
+        },
         "0384: Antenna 1 Time Limit Reached Ch B": {
-            "converted": false, 
-            "raw": 0, 
+            "converted": false,
+            "raw": 0,
             "unit": null
-        }, 
+        },
         "0385: Antenna 2 Time Limit Reached Ch B": {
-            "converted": false, 
-            "raw": 0, 
+            "converted": false,
+            "raw": 0,
             "unit": null
-        }, 
+        },
         "0386: Antenna 3 Time Limit Reached Ch B": {
-            "converted": false, 
-            "raw": 0, 
+            "converted": false,
+            "raw": 0,
             "unit": null
-        }, 
+        },
         "0387: Antenna 4 Time Limit Reached Ch B": {
-            "converted": false, 
-            "raw": 0, 
+            "converted": false,
+            "raw": 0,
             "unit": null
-        }, 
+        },
         "0388: Antenna 1 Burn Active Ch A": {
-            "converted": false, 
-            "raw": 0, 
+            "converted": false,
+            "raw": 0,
             "unit": null
-        }, 
+        },
         "0389: Antenna 2 Burn Active Ch A": {
-            "converted": false, 
-            "raw": 0, 
+            "converted": false,
+            "raw": 0,
             "unit": null
-        }, 
+        },
         "0390: Antenna 3 Burn Active Ch A": {
-            "converted": false, 
-            "raw": 0, 
+            "converted": false,
+            "raw": 0,
             "unit": null
-        }, 
+        },
         "0391: Antenna 4 Burn Active Ch A": {
-            "converted": false, 
-            "raw": 0, 
+            "converted": false,
+            "raw": 0,
             "unit": null
-        }, 
+        },
         "0392: Antenna 1 Burn Active Ch B": {
-            "converted": false, 
-            "raw": 0, 
+            "converted": false,
+            "raw": 0,
             "unit": null
-        }, 
+        },
         "0393: Antenna 2 Burn Active Ch B": {
-            "converted": false, 
-            "raw": 0, 
+            "converted": false,
+            "raw": 0,
             "unit": null
-        }, 
+        },
         "0394: Antenna 3 Burn Active Ch B": {
-            "converted": false, 
-            "raw": 0, 
+            "converted": false,
+            "raw": 0,
             "unit": null
-        }, 
+        },
         "0395: Antenna 4 Burn Active Ch B": {
-            "converted": false, 
-            "raw": 0, 
+            "converted": false,
+            "raw": 0,
             "unit": null
-        }, 
+        },
         "0396: System Independent Burn Ch A": {
-            "converted": false, 
-            "raw": 0, 
+            "converted": false,
+            "raw": 0,
             "unit": null
-        }, 
+        },
         "0397: System Independent Burn Ch B": {
-            "converted": false, 
-            "raw": 0, 
+            "converted": false,
+            "raw": 0,
             "unit": null
-        }, 
+        },
         "0398: Ignoring Switches Ch A": {
-            "converted": false, 
-            "raw": 0, 
+            "converted": false,
+            "raw": 0,
             "unit": null
-        }, 
+        },
         "0399: Ignoring Switches Ch B": {
-            "converted": false, 
-            "raw": 0, 
+            "converted": false,
+            "raw": 0,
             "unit": null
-        }, 
+        },
         "0400: Armed Ch A": {
-            "converted": false, 
-            "raw": 0, 
+            "converted": false,
+            "raw": 0,
             "unit": null
-        }, 
+        },
         "0401: Armed Ch B": {
-            "converted": false, 
-            "raw": 0, 
+            "converted": false,
+            "raw": 0,
             "unit": null
-        }, 
-        "0402: Antenna 1 Activation Count Ch A": 0, 
-        "0405: Antenna 2 Activation Count Ch A": 0, 
-        "0408: Antenna 3 Activation Count Ch A": 0, 
-        "0411: Antenna 4 Activation Count Ch A": 0, 
-        "0414: Antenna 1 Activation Count Ch B": 0, 
-        "0417: Antenna 2 Activation Count Ch B": 0, 
-        "0420: Antenna 3 Activation Count Ch B": 0, 
-        "0423: Antenna 4 Activation Count Ch B": 0, 
+        },
+        "0402: Antenna 1 Activation Count Ch A": 0,
+        "0405: Antenna 2 Activation Count Ch A": 0,
+        "0408: Antenna 3 Activation Count Ch A": 0,
+        "0411: Antenna 4 Activation Count Ch A": 0,
+        "0414: Antenna 1 Activation Count Ch B": 0,
+        "0417: Antenna 2 Activation Count Ch B": 0,
+        "0420: Antenna 3 Activation Count Ch B": 0,
+        "0423: Antenna 4 Activation Count Ch B": 0,
         "0426: Antenna 1 Activation Time Ch A": {
-            "converted": 0.0, 
-            "raw": 0, 
+            "converted": 0.0,
+            "raw": 0,
             "unit": null
-        }, 
+        },
         "0434: Antenna 2 Activation Time Ch A": {
-            "converted": 0.0, 
-            "raw": 0, 
+            "converted": 0.0,
+            "raw": 0,
             "unit": null
-        }, 
+        },
         "0442: Antenna 3 Activation Time Ch A": {
-            "converted": 0.0, 
-            "raw": 0, 
+            "converted": 0.0,
+            "raw": 0,
             "unit": null
-        }, 
+        },
         "0450: Antenna 4 Activation Time Ch A": {
-            "converted": 0.0, 
-            "raw": 0, 
+            "converted": 0.0,
+            "raw": 0,
             "unit": null
-        }, 
+        },
         "0458: Antenna 1 Activation Time Ch B": {
-            "converted": 0.0, 
-            "raw": 0, 
+            "converted": 0.0,
+            "raw": 0,
             "unit": null
-        }, 
+        },
         "0466: Antenna 2 Activation Time Ch B": {
-            "converted": 0.0, 
-            "raw": 0, 
+            "converted": 0.0,
+            "raw": 0,
             "unit": null
-        }, 
+        },
         "0474: Antenna 3 Activation Time Ch B": {
-            "converted": 0.0, 
-            "raw": 0, 
+            "converted": 0.0,
+            "raw": 0,
             "unit": null
-        }, 
+        },
         "0482: Antenna 4 Activation Time Ch B": {
-            "converted": 0.0, 
-            "raw": 0, 
+            "converted": 0.0,
+            "raw": 0,
             "unit": null
         }
-    }, 
+    },
     "09: Experiments": {
         "0490: Current experiment code": {
-            "converted": "None", 
-            "raw": 0, 
+            "converted": "None",
+            "raw": 0,
             "unit": "ExperimentType"
-        }, 
+        },
         "0494: Experiment Startup Result": {
-            "converted": "Success", 
-            "raw": 0, 
+            "converted": "Success",
+            "raw": 0,
             "unit": "StartResult"
-        }, 
+        },
         "0502: Last Experiment Iteration Status": {
-            "converted": "LoopImmediately", 
-            "raw": 1, 
+            "converted": "LoopImmediately",
+            "raw": 1,
             "unit": "IterationResult"
         }
-    }, 
+    },
     "10: Gyroscope": {
         "0510: X measurement": {
-            "converted": -0.9043478260869565, 
-            "raw": -13, 
+            "converted": -0.9043478260869565,
+            "raw": -13,
             "unit": "deg/sec"
-        }, 
+        },
         "0526: Y measurement": {
-            "converted": -2.782608695652174, 
-            "raw": -40, 
+            "converted": -2.782608695652174,
+            "raw": -40,
             "unit": "deg/sec"
-        }, 
+        },
         "0542: Z measurement": {
-            "converted": 0.6260869565217392, 
-            "raw": 9, 
+            "converted": 0.5565217391304348,
+            "raw": 8,
             "unit": "deg/sec"
-        }, 
+        },
         "0558: Temperature": {
-            "converted": 21, 
-            "raw": -16944, 
+            "converted": 21,
+            "raw": -16931,
             "unit": "C"
         }
-    }, 
+    },
     "11: Comm": {
         "0574: Transmitter Uptime": {
-            "converted": 51575.0, 
-            "raw": 51575, 
+            "converted": 51543.0,
+            "raw": 51543,
             "unit": null
-        }, 
+        },
         "0591: Transmitter Bitrate": {
-            "converted": 1200, 
-            "raw": 0, 
+            "converted": 1200,
+            "raw": 0,
             "unit": null
-        }, 
+        },
         "0593: [Last transmission] RF Reflected Power": {
-            "converted": 12.262982919404187, 
-            "raw": 535, 
+            "converted": 11.640494134173968,
+            "raw": 498,
             "unit": "dBm"
-        }, 
+        },
         "0605: [Last transmission] Power Amplifier Temperature": {
-            "converted": 26.352800000000002, 
-            "raw": 2989, 
+            "converted": 26.46199999999999,
+            "raw": 2987,
             "unit": "C"
-        }, 
+        },
         "0617: [Last transmission] RF Forward Power": {
-            "converted": 28.53747020569213, 
-            "raw": 3484, 
+            "converted": 28.993960729563714,
+            "raw": 3672,
             "unit": "dBm"
-        }, 
+        },
         "0629: [Last transmission] Transmitter Current": {
-            "converted": 318.8835, 
-            "raw": 3555, 
+            "converted": 317.1792,
+            "raw": 3536,
             "unit": "mA"
-        }, 
+        },
         "0641: [Now] RF Forward Power": {
-            "converted": -2022.3040927210204, 
-            "raw": 0, 
+            "converted": -2022.3040927210204,
+            "raw": 0,
             "unit": "dBm"
-        }, 
+        },
         "0653: [Now] Transmitter Current": {
-            "converted": 0.2691, 
-            "raw": 3, 
+            "converted": 0.4485,
+            "raw": 5,
             "unit": "mA"
-        }, 
+        },
         "0665: Transmitter Idle State": {
-            "converted": false, 
-            "raw": 0, 
+            "converted": false,
+            "raw": 0,
             "unit": null
-        }, 
+        },
         "0666: Beacon State": {
-            "converted": false, 
-            "raw": 0, 
+            "converted": false,
+            "raw": 0,
             "unit": null
-        }, 
+        },
         "0667: Receiver Uptime": {
-            "converted": 51598.0, 
-            "raw": 51598, 
+            "converted": 51566.0,
+            "raw": 51566,
             "unit": null
-        }, 
+        },
         "0684: [Last received] Doppler Offset": {
-            "converted": -3593.847999999998, 
-            "raw": 1401, 
+            "converted": -3593.847999999998,
+            "raw": 1401,
             "unit": "Hz"
-        }, 
+        },
         "0696: [Last received] RSSI": {
-            "converted": -96.83000000000001, 
-            "raw": 1839, 
+            "converted": -96.83000000000001,
+            "raw": 1839,
             "unit": "dBm"
-        }, 
+        },
         "0708: [Now] Doppler Offset": {
-            "converted": -4167.984, 
-            "raw": 1358, 
+            "converted": -4101.223999999998,
+            "raw": 1363,
             "unit": "Hz"
-        }, 
+        },
         "0720: [Now] Receiver Current": {
-            "converted": 49.4405, 
-            "raw": 1621, 
+            "converted": 49.1965,
+            "raw": 1613,
             "unit": "mA"
-        }, 
+        },
         "0732: [Now] Power Supply Voltage": {
-            "converted": 7.63232, 
-            "raw": 1564, 
+            "converted": 7.72016,
+            "raw": 1582,
             "unit": "V"
-        }, 
+        },
         "0744: [Now] Oscillator Temperature": {
-            "converted": 25.09699999999998, 
-            "raw": 3012, 
+            "converted": 25.09699999999998,
+            "raw": 3012,
             "unit": "C"
-        }, 
+        },
         "0756: [Now] Power Amplifier Temperature ": {
-            "converted": 24.76939999999999, 
-            "raw": 3018, 
+            "converted": 24.660200000000003,
+            "raw": 3020,
             "unit": "C"
-        }, 
+        },
         "0768: [Now] RSSI": {
-            "converted": -95.96000000000001, 
-            "raw": 1868, 
+            "converted": -95.87,
+            "raw": 1871,
             "unit": "dBm"
         }
-    }, 
+    },
     "12: GPIO": {
         "0780: Sail Deployed": {
-            "converted": true, 
-            "raw": 1, 
+            "converted": true,
+            "raw": 1,
             "unit": null
         }
-    }, 
+    },
     "13: MCU": {
         "0781: Temperature": {
-            "converted": 22.206349206349206, 
-            "raw": 2319, 
+            "converted": 21.349206349206348,
+            "raw": 2320,
             "unit": "C"
         }
-    }, 
+    },
     "14: Controller A": {
         "0793: MPPT_X.SOL_VOLT": {
-            "converted": 4.29, 
-            "raw": 935, 
+            "converted": 4.38,
+            "raw": 953,
             "unit": "V"
-        }, 
+        },
         "0805: MPPT_X.SOL_CURR": {
-            "converted": 0.016, 
-            "raw": 68, 
+            "converted": 0.016,
+            "raw": 68,
             "unit": "A"
-        }, 
+        },
         "0817: MPPT_X.SOL_OUT_VOLT": {
-            "converted": 5.41, 
-            "raw": 1177, 
+            "converted": 5.4,
+            "raw": 1176,
             "unit": "V"
-        }, 
+        },
         "0829: MPPT_X.Temperature": {
-            "converted": 25.9, 
-            "raw": 2838, 
+            "converted": 25.8,
+            "raw": 2839,
             "unit": "C"
-        }, 
-        "0841: MPPT_X.State": 3, 
+        },
+        "0841: MPPT_X.State": 3,
         "0844: MPPT_Y+.SOL_VOLT": {
-            "converted": 2.97, 
-            "raw": 646, 
+            "converted": 2.96,
+            "raw": 645,
             "unit": "V"
-        }, 
+        },
         "0856: MPPT_Y+.SOL_CURR": {
-            "converted": 0.001, 
-            "raw": 6, 
+            "converted": 0.001,
+            "raw": 6,
             "unit": "A"
-        }, 
+        },
         "0868: MPPT_Y+.SOL_OUT_VOLT": {
-            "converted": 0.0, 
-            "raw": 1, 
+            "converted": 0.0,
+            "raw": 1,
             "unit": "V"
-        }, 
+        },
         "0880: MPPT_Y+.Temperature": {
-            "converted": 24.0, 
-            "raw": 2870, 
+            "converted": 24.3,
+            "raw": 2864,
             "unit": "C"
-        }, 
-        "0892: MPPT_Y+.State": 5, 
+        },
+        "0892: MPPT_Y+.State": 5,
         "0895: MPPT_Y-.SOL_VOLT": {
-            "converted": 9.74, 
-            "raw": 2121, 
+            "converted": 11.17,
+            "raw": 2433,
             "unit": "V"
-        }, 
+        },
         "0907: MPPT_Y-.SOL_CURR": {
-            "converted": 0.203, 
-            "raw": 857, 
+            "converted": 0.355,
+            "raw": 1500,
             "unit": "A"
-        }, 
+        },
         "0919: MPPT_Y-.SOL_OUT_VOLT": {
-            "converted": 8.11, 
-            "raw": 1766, 
+            "converted": 8.22,
+            "raw": 1789,
             "unit": "V"
-        }, 
+        },
         "0931: MPPT_Y-.Temperature": {
-            "converted": 26.1, 
-            "raw": 2835, 
+            "converted": 26.4,
+            "raw": 2830,
             "unit": "C"
-        }, 
-        "0943: MPPT_Y-.State": 0, 
+        },
+        "0943: MPPT_Y-.State": 1,
         "0946: DISTR.VOLT_3V3": {
-            "converted": 3.36, 
-            "raw": 366, 
+            "converted": 3.36,
+            "raw": 366,
             "unit": "V"
-        }, 
+        },
         "0956: DISTR.CURR_3V3": {
-            "converted": 0.056, 
-            "raw": 24, 
+            "converted": 0.047,
+            "raw": 20,
             "unit": "A"
-        }, 
+        },
         "0966: DISTR.VOLT_5V": {
-            "converted": 5.03, 
-            "raw": 547, 
+            "converted": 5.03,
+            "raw": 547,
             "unit": "V"
-        }, 
+        },
         "0976: DISTR.CURR_5V": {
-            "converted": 0.007, 
-            "raw": 3, 
+            "converted": 0.007,
+            "raw": 3,
             "unit": "A"
-        }, 
+        },
         "0986: DISTR.VOLT_VBAT": {
-            "converted": 7.6, 
-            "raw": 827, 
+            "converted": 7.68,
+            "raw": 836,
             "unit": "V"
-        }, 
+        },
         "0996: DISTR.CURR_VBAT": {
-            "converted": 0.045, 
-            "raw": 19, 
+            "converted": 0.045,
+            "raw": 19,
             "unit": "A"
-        }, 
-        "1006: DISTR.LCL_STATE": 0, 
-        "1013: DISTR.LCL_FLAGS": 63, 
+        },
+        "1006: DISTR.LCL_STATE": 0,
+        "1013: DISTR.LCL_FLAGS": 63,
         "1019: BATC.VOLT_A": {
-            "converted": 7.64, 
-            "raw": 631, 
+            "converted": 7.7,
+            "raw": 636,
             "unit": "V"
-        }, 
+        },
         "1029: BATC.CHRG_CURR": {
-            "converted": 0.113, 
-            "raw": 48, 
+            "converted": 0.333,
+            "raw": 142,
             "unit": "A"
-        }, 
+        },
         "1039: BATC.DCHRG_CURR": {
-            "converted": 0.0, 
-            "raw": 0, 
+            "converted": 0.0,
+            "raw": 0,
             "unit": "A"
-        }, 
+        },
         "1049: BATC.Temperature": {
-            "converted": 26.6, 
-            "raw": 777, 
+            "converted": 26.9,
+            "raw": 776,
             "unit": "C"
-        }, 
-        "1059: BATC.State": 3, 
+        },
+        "1059: BATC.State": 3,
         "1062: BP.Temperature A": {
-            "converted": 21.375, 
-            "raw": 342, 
+            "converted": 21.375,
+            "raw": 342,
             "unit": "C"
-        }, 
+        },
         "1075: BP.Temperature B": {
-            "converted": 21.25, 
-            "raw": 340, 
+            "converted": 21.25,
+            "raw": 340,
             "unit": "C"
-        }, 
-        "1088: Safety Counter": 0, 
-        "1096: Power Cycle Count": 15, 
+        },
+        "1088: Safety Counter": 0,
+        "1096: Power Cycle Count": 15,
         "1112: Uptime": {
-            "converted": 221489.0, 
-            "raw": 221489, 
+            "converted": 221457.0,
+            "raw": 221457,
             "unit": null
-        }, 
+        },
         "1144: Temperature": {
-            "converted": 25.8, 
-            "raw": 781, 
+            "converted": 26.0,
+            "raw": 780,
             "unit": "C"
-        }, 
+        },
         "1154: SUPP_TEMP": {
-            "converted": 26.0, 
-            "raw": 780, 
+            "converted": 26.0,
+            "raw": 780,
             "unit": "C"
-        }, 
+        },
         "1164: ControllerB.3V3d`": {
-            "converted": 3.27, 
-            "raw": 558, 
+            "converted": 3.27,
+            "raw": 558,
             "unit": "V"
-        }, 
+        },
         "1174: DCDC3V3.Temperature": {
-            "converted": 24.5, 
-            "raw": 787, 
+            "converted": 24.5,
+            "raw": 787,
             "unit": "C"
-        }, 
+        },
         "1184: DCDC5V.Temperature": {
-            "converted": 24.3, 
-            "raw": 788, 
+            "converted": 24.3,
+            "raw": 788,
             "unit": "C"
         }
-    }, 
+    },
     "15: Controller B": {
         "1194: BP.Temperature": {
-            "converted": 23.0, 
-            "raw": 253, 
+            "converted": 26.0,
+            "raw": 255,
             "unit": "C"
-        }, 
+        },
         "1204: BATC.VOLT_B": {
-            "converted": 7.68, 
-            "raw": 634, 
+            "converted": 7.73,
+            "raw": 638,
             "unit": "V"
-        }, 
-        "1214: Safety Counter": 0, 
-        "1222: Power Cycle Count": 16, 
+        },
+        "1214: Safety Counter": 0,
+        "1222: Power Cycle Count": 16,
         "1238: Uptime": {
-            "converted": 53178.0, 
-            "raw": 53178, 
+            "converted": 53144.0,
+            "raw": 53144,
             "unit": null
-        }, 
+        },
         "1270: Temperature": {
-            "converted": 25.3, 
-            "raw": 783, 
+            "converted": 25.6,
+            "raw": 782,
             "unit": "C"
-        }, 
+        },
         "1280: SUPP_TEMP": {
-            "converted": 25.6, 
-            "raw": 782, 
+            "converted": 25.8,
+            "raw": 781,
             "unit": "C"
-        }, 
+        },
         "1290: ControllerA.3V3d": {
-            "converted": 3.29, 
-            "raw": 561, 
+            "converted": 3.29,
+            "raw": 561,
             "unit": "V"
         }
-    }, 
+    },
     "16: Imtq Magnetometers": {
         "1300: Magnetometer Measurement 1": {
-            "converted": 0.0, 
-            "raw": 0, 
+            "converted": 0.0,
+            "raw": 0,
             "unit": "uT"
-        }, 
+        },
         "1332: Magnetometer Measurement 2": {
-            "converted": 0.0, 
-            "raw": 0, 
+            "converted": 0.0,
+            "raw": 0,
             "unit": "uT"
-        }, 
+        },
         "1364: Magnetometer Measurement 3": {
-            "converted": 0.0, 
-            "raw": 0, 
+            "converted": 0.0,
+            "raw": 0,
             "unit": "uT"
         }
-    }, 
+    },
     "17: Imtq Coils Active": {
         "1396: Coils active during measurement": {
-            "converted": false, 
-            "raw": 0, 
+            "converted": false,
+            "raw": 0,
             "unit": null
         }
-    }, 
+    },
     "18: Imtq Dipole": {
         "1397: Dipole 1": {
-            "converted": 0.0, 
-            "raw": 0, 
+            "converted": 0.0,
+            "raw": 0,
             "unit": "mA*m^2"
-        }, 
+        },
         "1413: Dipole 2": {
-            "converted": 0.0, 
-            "raw": 0, 
+            "converted": 0.0,
+            "raw": 0,
             "unit": "mA*m^2"
-        }, 
+        },
         "1429: Dipole 3": {
-            "converted": 0.0, 
-            "raw": 0, 
+            "converted": 0.0,
+            "raw": 0,
             "unit": "mA*m^2"
         }
-    }, 
+    },
     "19: Imtq BDot": {
         "1445: BDot 1": {
-            "converted": 0.0, 
-            "raw": 0, 
+            "converted": 0.0,
+            "raw": 0,
             "unit": "uT/s"
-        }, 
+        },
         "1477: BDot 2": {
-            "converted": 0.0, 
-            "raw": 0, 
+            "converted": 0.0,
+            "raw": 0,
             "unit": "uT/s"
-        }, 
+        },
         "1509: BDot 3": {
-            "converted": 0.0, 
-            "raw": 0, 
+            "converted": 0.0,
+            "raw": 0,
             "unit": "uT/s"
         }
-    }, 
+    },
     "20: Imtq Housekeeping": {
         "1541: Digital Voltage": {
-            "converted": 0.0, 
-            "raw": 0, 
+            "converted": 0.0,
+            "raw": 0,
             "unit": "V"
-        }, 
+        },
         "1557: Analog Voltage": {
-            "converted": 0.0, 
-            "raw": 0, 
+            "converted": 0.0,
+            "raw": 0,
             "unit": "V"
-        }, 
+        },
         "1573: Digital Current": {
-            "converted": 0.0, 
-            "raw": 0, 
+            "converted": 0.0,
+            "raw": 0,
             "unit": "mA"
-        }, 
+        },
         "1589: Analog Current": {
-            "converted": 0.0, 
-            "raw": 0, 
+            "converted": 0.0,
+            "raw": 0,
             "unit": "mA"
-        }, 
+        },
         "1605: MCU Temperature": {
-            "converted": 0, 
-            "raw": 0, 
+            "converted": 0,
+            "raw": 0,
             "unit": "C"
         }
-    }, 
+    },
     "21: Imtq Coils": {
         "1621: Coil Current 1": {
-            "converted": 0.0, 
-            "raw": 0, 
+            "converted": 0.0,
+            "raw": 0,
             "unit": "mA"
-        }, 
+        },
         "1637: Coil Current 2": {
-            "converted": 0.0, 
-            "raw": 0, 
+            "converted": 0.0,
+            "raw": 0,
             "unit": "mA"
-        }, 
+        },
         "1653: Coil Current 3": {
-            "converted": 0.0, 
-            "raw": 0, 
+            "converted": 0.0,
+            "raw": 0,
             "unit": "mA"
         }
-    }, 
+    },
     "22: Imtq Temperature": {
         "1669: Coil Temperature 1": {
-            "converted": 0, 
-            "raw": 0, 
+            "converted": 0,
+            "raw": 0,
             "unit": "C"
-        }, 
+        },
         "1685: Coil Temperature 2": {
-            "converted": 0, 
-            "raw": 0, 
+            "converted": 0,
+            "raw": 0,
             "unit": "C"
-        }, 
+        },
         "1701: Coil Temperature 3": {
-            "converted": 0, 
-            "raw": 0, 
+            "converted": 0,
+            "raw": 0,
             "unit": "C"
         }
-    }, 
+    },
     "23: Imtq State": {
-        "1717: Status": 0, 
-        "1725: Mode": 0, 
+        "1717: Status": 0,
+        "1725: Mode": 0,
         "1727: Error during previous iteration": {
-            "converted": false, 
-            "raw": 0, 
+            "converted": false,
+            "raw": 0,
             "unit": null
-        }, 
-        "1735: Configuration changed": 0, 
+        },
+        "1735: Configuration changed": 0,
         "1736: Uptime": {
-            "converted": 0.0, 
-            "raw": 0, 
+            "converted": 0.0,
+            "raw": 0,
             "unit": null
         }
-    }, 
+    },
     "24: Imtq Self Test": {
-        "1768: Error 1": 0, 
-        "1776: Error 2": 0, 
-        "1784: Error 3": 0, 
-        "1792: Error 4": 0, 
-        "1800: Error 5": 0, 
-        "1808: Error 6": 0, 
-        "1816: Error 7": 0, 
+        "1768: Error 1": 0,
+        "1776: Error 2": 0,
+        "1784: Error 3": 0,
+        "1792: Error 4": 0,
+        "1800: Error 5": 0,
+        "1808: Error 6": 0,
+        "1816: Error 7": 0,
         "1824: Error 8": 0
     }
 }
