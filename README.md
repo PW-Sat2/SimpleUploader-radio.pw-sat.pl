@@ -1,6 +1,6 @@
 ## PWSat2 Radio Python module
 
-Module requires 'credentials.json' which is generated during software download from http://pwsat2.softwaremill.com.
+Module requires 'credentials.json' which is generated during software download from http://radio.pw-sat.pl
 
 Credentials file format:
 `{"identifier": "USER_ID", "password": "API_KEY"}`
